@@ -40,6 +40,7 @@ var server = http.createServer(function (request, response) {
     }
 });
 
+//http://localhost:1337/status?position=left
 function status(query, response) {
 
     var cameraToQuery = 0;

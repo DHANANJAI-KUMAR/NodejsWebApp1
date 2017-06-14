@@ -16,8 +16,9 @@ var server = http.createServer(function (request, response) {
     }
 });
 
+//http://localhost:1337/status?position=left
 function status(query, response) {
-
+    //http://localhost:1337/status?position=left
     var cameraToQuery = 0;
     var detectedFacesCount = 0;
     var globalStatus = 'N/A';
